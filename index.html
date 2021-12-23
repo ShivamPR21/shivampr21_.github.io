@@ -34,6 +34,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+<!--  <script>-->
+<!--      function submitForm() {-->
+<!--        document.contact-form.submit();-->
+<!--        document.contact-form.reset();-->
+<!--      }-->
+<!--  </script>-->
 </head>
 
 <body>
@@ -61,11 +68,11 @@
       <h1>Shivam Pandey</h1>
       <p>I'm <span class="typed" data-typed-items="Researcher, Developer, Pandey"></span></p>
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/shivampr21/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="http://github.com/shivampr21/" class="github"><i class="bx bxl-github"></i></a>
-        <a href="http://gitlab.com/shivampr21/" class="gitlab"><i class="bx bxl-gitlab"></i></a>
-        <a href="https://join.slack.com/t/asigtalk/shared_invite/zt-zujrsreu-kgD6um~9Ne9hPk7G5i84XQ" class="slack"><i class="bx bxl-slack"></i></a>
-        <a href="mailto:pandeyshivam2017robotics@gmail.com" class="google-plus"><i class="bx bxl-google"></i></a>
+        <a href="https://www.linkedin.com/in/shivampr21/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="http://github.com/shivampr21/" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="http://gitlab.com/shivampr21/" class="gitlab" target="_blank"><i class="bx bxl-gitlab"></i></a>
+        <a href="https://join.slack.com/t/asigtalk/shared_invite/zt-zujrsreu-kgD6um~9Ne9hPk7G5i84XQ" class="slack" target="_blank"><i class="bx bxl-slack"></i></a>
+        <a href="mailto:pandeyshivam2017robotics@gmail.com" class="google-plus" target="_blank"><i class="bx bxl-google"></i></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -331,7 +338,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="https://formspree.io/f/xzbobgre" method="POST" role="form">
+            <form name="contact-form" action="https://formspree.io/f/xzbobgre" method="POST" role="form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -347,7 +354,7 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading"></div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
